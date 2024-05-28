@@ -14,7 +14,7 @@ interface Props {
 const Cell: React.FC<Props> = ({ item, onClick }) => {
   return (
     <div className={`cell ${item.clicked ? 'clicked' : ''}`} onClick={onClick}>
-      {item.clicked && (item.hasItem ? '💍' : '')}
+      {item.clicked && (item.hasItem ? '👑' : '')}
     </div>
   );
 };
